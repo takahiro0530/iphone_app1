@@ -1,0 +1,423 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3617CF9D1F714DCE0008ED48 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3617CF9C1F714DCE0008ED48 /* AppDelegate.swift */; };
+		3617CF9F1F714DCE0008ED48 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3617CF9E1F714DCE0008ED48 /* ViewController.swift */; };
+		3617CFA21F714DCE0008ED48 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3617CFA01F714DCE0008ED48 /* Main.storyboard */; };
+		3617CFA41F714DCE0008ED48 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3617CFA31F714DCE0008ED48 /* Assets.xcassets */; };
+		3617CFA71F714DCE0008ED48 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3617CFA51F714DCE0008ED48 /* LaunchScreen.storyboard */; };
+		3617CFB21F714DCE0008ED48 /* AlcoholCheckerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3617CFB11F714DCE0008ED48 /* AlcoholCheckerTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3617CFAE1F714DCE0008ED48 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3617CF911F714DCD0008ED48 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3617CF981F714DCD0008ED48;
+			remoteInfo = AlcoholChecker;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3617CF991F714DCD0008ED48 /* AlcoholChecker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AlcoholChecker.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3617CF9C1F714DCE0008ED48 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		3617CF9E1F714DCE0008ED48 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		3617CFA11F714DCE0008ED48 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3617CFA31F714DCE0008ED48 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3617CFA61F714DCE0008ED48 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3617CFA81F714DCE0008ED48 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3617CFAD1F714DCE0008ED48 /* AlcoholCheckerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AlcoholCheckerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3617CFB11F714DCE0008ED48 /* AlcoholCheckerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlcoholCheckerTests.swift; sourceTree = "<group>"; };
+		3617CFB31F714DCE0008ED48 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3617CF961F714DCD0008ED48 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3617CFAA1F714DCE0008ED48 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3617CF901F714DCD0008ED48 = {
+			isa = PBXGroup;
+			children = (
+				3617CF9B1F714DCD0008ED48 /* AlcoholChecker */,
+				3617CFB01F714DCE0008ED48 /* AlcoholCheckerTests */,
+				3617CF9A1F714DCD0008ED48 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3617CF9A1F714DCD0008ED48 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3617CF991F714DCD0008ED48 /* AlcoholChecker.app */,
+				3617CFAD1F714DCE0008ED48 /* AlcoholCheckerTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3617CF9B1F714DCD0008ED48 /* AlcoholChecker */ = {
+			isa = PBXGroup;
+			children = (
+				3617CF9C1F714DCE0008ED48 /* AppDelegate.swift */,
+				3617CF9E1F714DCE0008ED48 /* ViewController.swift */,
+				3617CFA01F714DCE0008ED48 /* Main.storyboard */,
+				3617CFA31F714DCE0008ED48 /* Assets.xcassets */,
+				3617CFA51F714DCE0008ED48 /* LaunchScreen.storyboard */,
+				3617CFA81F714DCE0008ED48 /* Info.plist */,
+			);
+			path = AlcoholChecker;
+			sourceTree = "<group>";
+		};
+		3617CFB01F714DCE0008ED48 /* AlcoholCheckerTests */ = {
+			isa = PBXGroup;
+			children = (
+				3617CFB11F714DCE0008ED48 /* AlcoholCheckerTests.swift */,
+				3617CFB31F714DCE0008ED48 /* Info.plist */,
+			);
+			path = AlcoholCheckerTests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3617CF981F714DCD0008ED48 /* AlcoholChecker */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3617CFB61F714DCE0008ED48 /* Build configuration list for PBXNativeTarget "AlcoholChecker" */;
+			buildPhases = (
+				3617CF951F714DCD0008ED48 /* Sources */,
+				3617CF961F714DCD0008ED48 /* Frameworks */,
+				3617CF971F714DCD0008ED48 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AlcoholChecker;
+			productName = AlcoholChecker;
+			productReference = 3617CF991F714DCD0008ED48 /* AlcoholChecker.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3617CFAC1F714DCE0008ED48 /* AlcoholCheckerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3617CFB91F714DCE0008ED48 /* Build configuration list for PBXNativeTarget "AlcoholCheckerTests" */;
+			buildPhases = (
+				3617CFA91F714DCE0008ED48 /* Sources */,
+				3617CFAA1F714DCE0008ED48 /* Frameworks */,
+				3617CFAB1F714DCE0008ED48 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3617CFAF1F714DCE0008ED48 /* PBXTargetDependency */,
+			);
+			name = AlcoholCheckerTests;
+			productName = AlcoholCheckerTests;
+			productReference = 3617CFAD1F714DCE0008ED48 /* AlcoholCheckerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3617CF911F714DCD0008ED48 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = Takahiro;
+				TargetAttributes = {
+					3617CF981F714DCD0008ED48 = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+					};
+					3617CFAC1F714DCE0008ED48 = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 3617CF981F714DCD0008ED48;
+					};
+				};
+			};
+			buildConfigurationList = 3617CF941F714DCD0008ED48 /* Build configuration list for PBXProject "AlcoholChecker" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3617CF901F714DCD0008ED48;
+			productRefGroup = 3617CF9A1F714DCD0008ED48 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3617CF981F714DCD0008ED48 /* AlcoholChecker */,
+				3617CFAC1F714DCE0008ED48 /* AlcoholCheckerTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3617CF971F714DCD0008ED48 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3617CFA71F714DCE0008ED48 /* LaunchScreen.storyboard in Resources */,
+				3617CFA41F714DCE0008ED48 /* Assets.xcassets in Resources */,
+				3617CFA21F714DCE0008ED48 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3617CFAB1F714DCE0008ED48 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3617CF951F714DCD0008ED48 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3617CF9F1F714DCE0008ED48 /* ViewController.swift in Sources */,
+				3617CF9D1F714DCE0008ED48 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3617CFA91F714DCE0008ED48 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3617CFB21F714DCE0008ED48 /* AlcoholCheckerTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3617CFAF1F714DCE0008ED48 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3617CF981F714DCD0008ED48 /* AlcoholChecker */;
+			targetProxy = 3617CFAE1F714DCE0008ED48 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		3617CFA01F714DCE0008ED48 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3617CFA11F714DCE0008ED48 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		3617CFA51F714DCE0008ED48 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3617CFA61F714DCE0008ED48 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3617CFB41F714DCE0008ED48 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3617CFB51F714DCE0008ED48 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3617CFB71F714DCE0008ED48 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = AlcoholChecker/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.takahiro.AlcoholChecker;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		3617CFB81F714DCE0008ED48 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = AlcoholChecker/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.takahiro.AlcoholChecker;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		3617CFBA1F714DCE0008ED48 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = AlcoholCheckerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.takahiro.AlcoholCheckerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AlcoholChecker.app/AlcoholChecker";
+			};
+			name = Debug;
+		};
+		3617CFBB1F714DCE0008ED48 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = AlcoholCheckerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.takahiro.AlcoholCheckerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AlcoholChecker.app/AlcoholChecker";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3617CF941F714DCD0008ED48 /* Build configuration list for PBXProject "AlcoholChecker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3617CFB41F714DCE0008ED48 /* Debug */,
+				3617CFB51F714DCE0008ED48 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3617CFB61F714DCE0008ED48 /* Build configuration list for PBXNativeTarget "AlcoholChecker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3617CFB71F714DCE0008ED48 /* Debug */,
+				3617CFB81F714DCE0008ED48 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		3617CFB91F714DCE0008ED48 /* Build configuration list for PBXNativeTarget "AlcoholCheckerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3617CFBA1F714DCE0008ED48 /* Debug */,
+				3617CFBB1F714DCE0008ED48 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3617CF911F714DCD0008ED48 /* Project object */;
+}
