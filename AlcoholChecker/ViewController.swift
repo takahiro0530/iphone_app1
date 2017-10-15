@@ -9,10 +9,18 @@
 import UIKit
 
 class ViewController: UIViewController {
+    
+    // ラベルのプロパティ宣言
+    @IBOutlet weak var topLabel: UILabel!
+    @IBOutlet weak var weight: UITextField!
+    @IBOutlet weak var drinkingTime: UITextField!
+    @IBOutlet weak var alcoholContent: UITextField!
+    @IBOutlet weak var result: UILabel!
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+        
+        
     }
 
     override func didReceiveMemoryWarning() {
@@ -20,6 +28,20 @@ class ViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
 
+    @IBAction func resultButton(_ sender: Any) {
+        
+        let num1:Int = Int(weight.text!)!
+        let num2:Int = Int(drinkingTime.text!)!
+        let num3:Double = Double(alcoholContent.text!)!
+        let num4:Int = (15 * num1 * num2)
+        let num5:Int = Int(num3 * 0.8)
+        let resultNum = num4 / num5
+        
+        result.text = "二日酔いしない飲酒量は\(resultNum)ml"
+        
+        
+        
+    }
 
 }
 
